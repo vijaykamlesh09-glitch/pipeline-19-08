@@ -20,7 +20,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./Enviorgit ment
+        working-directory: ./Enviorment
 
     env:
       TF_VAR_client_id: ${{ secrets.AZURE_CLIENT_ID }}
