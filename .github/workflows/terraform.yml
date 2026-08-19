@@ -27,10 +27,9 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./Environment
+        working-directory: ./Enviroment
 
     steps:
-
       - name: Checkout Code
         uses: actions/checkout@v4
 
